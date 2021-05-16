@@ -79,7 +79,7 @@ const string2intAndFloat = (text) =>{
    
  }
   
- if(position > 0 ){
+ if(position >= 0 ){
   console.log(SumOfInt.toFixed(filterInttoText.length -(position+1)),typeof SumOfInt)
     }else{
       console.log(SumOfInt,typeof SumOfInt)
